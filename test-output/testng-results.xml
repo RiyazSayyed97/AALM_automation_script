@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="7" total="14" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-02T11:50:04 IST" name="Suite" finished-at="2022-08-02T11:50:37 IST" duration-ms="32952">
+    <groups>
+    </groups>
+    <test started-at="2022-08-02T11:50:04 IST" name="Test" finished-at="2022-08-02T11:50:37 IST" duration-ms="32952">
+      <class name="base.TestScript">
+        <test-method is-config="true" signature="beforeClass(java.lang.String)[pri:0, instance:base.TestScript@67c33749]" started-at="2022-08-02T11:50:04 IST" name="beforeClass" finished-at="2022-08-02T11:50:13 IST" duration-ms="9179" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[browserName1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="prerequisite()[pri:0, instance:base.TestScript@67c33749]" started-at="2022-08-02T11:50:13 IST" name="prerequisite" finished-at="2022-08-02T11:50:27 IST" duration-ms="14259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisite -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:base.TestScript@67c33749]" started-at="2022-08-02T11:50:27 IST" name="afterMethod" finished-at="2022-08-02T11:50:27 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=prerequisite status=SUCCESS method=TestScript.prerequisite()[pri:0, instance:base.TestScript@67c33749] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="TC_001()[pri:1, instance:base.TestScript@67c33749]" started-at="2022-08-02T11:50:27 IST" name="TC_001" finished-at="2022-08-02T11:50:33 IST" depends-on-methods="base.TestScript.prerequisite" duration-ms="6061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:base.TestScript@67c33749]" started-at="2022-08-02T11:50:33 IST" name="afterMethod" finished-at="2022-08-02T11:50:33 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_001 status=SUCCESS method=TestScript.TC_001()[pri:1, instance:base.TestScript@67c33749] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="TC_002()[pri:2, instance:base.TestScript@67c33749]" started-at="2022-08-02T11:50:33 IST" name="TC_002" finished-at="2022-08-02T11:50:35 IST" duration-ms="1394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:base.TestScript@67c33749]" started-at="2022-08-02T11:50:35 IST" name="afterMethod" finished-at="2022-08-02T11:50:35 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_002 status=SUCCESS method=TestScript.TC_002()[pri:2, instance:base.TestScript@67c33749] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="TC_003()[pri:3, instance:base.TestScript@67c33749]" started-at="2022-08-02T11:50:35 IST" name="TC_003" finished-at="2022-08-02T11:50:35 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:base.TestScript@67c33749]" started-at="2022-08-02T11:50:35 IST" name="afterMethod" finished-at="2022-08-02T11:50:35 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_003 status=SUCCESS method=TestScript.TC_003()[pri:3, instance:base.TestScript@67c33749] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="TC_004()[pri:4, instance:base.TestScript@67c33749]" started-at="2022-08-02T11:50:35 IST" name="TC_004" finished-at="2022-08-02T11:50:35 IST" duration-ms="64" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:base.TestScript@67c33749]" started-at="2022-08-02T11:50:35 IST" name="afterMethod" finished-at="2022-08-02T11:50:35 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_004 status=SUCCESS method=TestScript.TC_004()[pri:4, instance:base.TestScript@67c33749] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="TC_005()[pri:5, instance:base.TestScript@67c33749]" started-at="2022-08-02T11:50:35 IST" name="TC_005" finished-at="2022-08-02T11:50:35 IST" duration-ms="103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:base.TestScript@67c33749]" started-at="2022-08-02T11:50:35 IST" name="afterMethod" finished-at="2022-08-02T11:50:35 IST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_005 status=SUCCESS method=TestScript.TC_005()[pri:5, instance:base.TestScript@67c33749] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="TC_006()[pri:6, instance:base.TestScript@67c33749]" started-at="2022-08-02T11:50:35 IST" name="TC_006" finished-at="2022-08-02T11:50:36 IST" duration-ms="974" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_006 -->
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:base.TestScript@67c33749]" started-at="2022-08-02T11:50:36 IST" name="afterMethod" finished-at="2022-08-02T11:50:36 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_006 status=SUCCESS method=TestScript.TC_006()[pri:6, instance:base.TestScript@67c33749] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:base.TestScript@67c33749]" started-at="2022-08-02T11:50:36 IST" name="afterClass" finished-at="2022-08-02T11:50:37 IST" duration-ms="639" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- base.TestScript -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
